@@ -1,0 +1,11 @@
+DROP TABLE IF EXISTS kroen_artikel;
+CREATE TABLE kroen_artikel
+(
+  id              smallint unsigned NOT NULL auto_increment,
+  publicatie-datum date NOT NULL,                             
+  titel           varchar(255) NOT NULL,                      
+  summary         text NOT NULL,                              
+  content         mediumtext NOT NULL,                        
+
+  PRIMARY KEY     (id)
+);
