@@ -3,7 +3,7 @@
 
 $DBusername="root";                                 
 
-$DBpassword="c4caef65d9bda6e618ac5f7f9c3db4de";     
+$DBpassword="/";     
 
 //bezoeker account
  met MD5 hash
